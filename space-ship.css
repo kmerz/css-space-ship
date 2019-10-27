@@ -54,3 +54,210 @@ body {
   height: 25px;
 }
 
+.planet {
+  background: #c2e8ce;
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  top: 400px;
+  left: 150px;
+  width: 1000px;
+  height: 1000px;
+}
+
+.planet-mask-1 {
+  background: #f2eee5;
+  position: absolute;
+  border-radius: 0% 100% 25% 75% / 25% 100% 0% 75%; 
+  width: 502px;
+  height: 100px;
+  transform: rotate(-28deg);
+  top: 100px;
+  left: 100px;
+}
+
+.planet-mask-2 {
+  background: #f6ad7b; 
+  position: absolute;
+  border-radius: 23% 75% 20% 114% / 25% 100% 23% 221%; 
+  width: 661px;
+  height: 227px;
+  transform: rotate(120deg);
+  top: 323px;
+  left: 200px;
+}
+
+.space-ship-body {
+  background: #62919c;
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  transform: rotate(94deg);
+  top: 323px;
+  left: 385px;
+}
+
+.space-ship-top {
+  background: #62919c;
+  position: absolute;
+  width: 11px;
+  height: 201px;
+  top: -21px;
+  left: -11px;
+  transform: skew(0deg, 75deg);
+}
+
+.space-ship-back {
+  background: #29505a;
+  position: absolute;
+  width: 100px;
+  height: 42px;
+  top: -41px;
+  left: -6px;
+  transform: skew(15deg, 0deg);
+}
+
+.space-ship-nub {
+  background: #62919c;
+  position: absolute;
+  width: 46px;
+  height: 61px;
+  top: 459px;
+  left: 337px;
+  transform: rotate(94deg);
+}
+
+.space-ship-nub-back {
+  background: #29505a;
+  position: absolute;
+  width: 45px;
+  height: 42px;
+  top: -42px;
+  left: -5px;
+  transform: skew(15deg, 0deg);
+}
+
+.space-ship-deck-window {
+  background: #f5f0e3;
+  position: absolute;
+  top: 155px;
+  left: 14px;
+  width: 8px;
+  height: 45px;
+  box-shadow: 0px -2px 12px 3px rgba(65,255,255,1);
+}
+
+.blinken-light {
+  background: #ff7676;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px -2px 12px 3px #ff7676;
+  top: 190px;
+  left: 135px;
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.crew-window {
+  background: #f5f0e3;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px -2px 12px 3px rgba(65,255,255,1);
+}
+
+.space-ship-crew-window-1 {
+  top: 30px;
+  left: 45px;
+}
+
+.space-ship-crew-window-2 {
+  top: 60px;
+  left: 45px;
+}
+
+.space-ship-crew-window-3 {
+  top: 90px;
+  left: 45px;
+}
+
+.space-ship-crew-window-4 {
+  top: 120px;
+  left: 45px;
+}
+
+.space-ship-crew-window-5 {
+  top: 150px;
+  left: 45px;
+}
+
+.space-ship-engine-1 {
+  background: #ff6f5e; 
+  position: absolute;
+  top: -36px;
+  left: 0px;
+  width: 85px;
+  height: 11px;
+  transform: skew(15deg, 0deg);
+  box-shadow: 0px -2px 12px 5px #ff6f5e;
+}
+
+.space-ship-engine-2 {
+  background: #ff6f5e; 
+  position: absolute;
+  top: -16px;
+  left: 5px;
+  width: 85px;
+  height: 11px;
+  transform: skew(15deg, 0deg);
+  box-shadow: 0px -2px 12px 5px #ff6f5e;
+}
+
+.number {
+  position: absolute;
+  transform: rotate(5deg);
+  top: 380px;
+  left: 456px;
+  width: 20px;
+  height: 20px;
+  color: #345760;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.ship-name {
+  position: absolute;
+  transform: rotate(-86deg);
+  top: 431px;
+  left: 486px;
+  width: 70px;
+  height: 17px;
+  color: #345760;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.k, .o, .n, .ra, .do {
+  transform: rotate(91deg);
+} 
+
+.k {
+  transform: translate(58px, 0px);
+}
+
+.o {
+  transform: translate(43px, -15px);
+}
+
+.ra {
+  transform: translate(15px, -46px);
+}
+
+.do {
+  transform: translate(4px, -60px);
+}
